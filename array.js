@@ -1,4 +1,4 @@
-export let city=["bhopal","rewa","satna","narmadapuram"];
+// export let city=["bhopal","rewa","satna","narmadapuram"];
 // console.log(city);
 // console.log(city[2])
 
@@ -211,3 +211,6 @@ export let city=["bhopal","rewa","satna","narmadapuram"];
 //    return acc+cur;
 // },0);
 // console.log(sum); // Output: 15
+
+
+///////==========================================================================]

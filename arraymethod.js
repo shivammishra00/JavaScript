@@ -47,3 +47,52 @@
 // // console.log(originalArr) 
 // // console.log(newArr)
 
+
+
+//////========================   Math methods()  ================//////
+
+//  --------------  Math.max --------------// 
+// Array में सबसे बड़ी संख्या खोजने के लिए Math.max() का उपयोग
+let numbers = [10, 5, 8, 12, 3];
+let maxNumber = Math.max(...numbers);  // Spread operator का उपयोग करके array को arguments में बदलें
+console.log("Maximum number:", maxNumber);  // Output: Maximum number: 12
+
+
+//------------------- Math.min  -----------------------------//
+// Array में सबसे छोटी संख्या खोजने के लिए Math.min() का उपयोग
+let minNumber = Math.min(...numbers);
+console.log("Minimum number:", minNumber);  // Output: Minimum number: 3
+
+
+
+//-------------------   Math.sqrt  -----------------------------//
+// Array में प्रत्येक संख्या का square root निकालने के लिए Math.sqrt() का उपयोग
+let number2 = [4, 9, 16, 25];
+let sqrtNumbers = number2.map(Math.sqrt);
+console.log("Square roots:", sqrtNumbers);  // Output: Square roots: [2, 3, 4, 5]
+
+
+
+let number3 = [4.7, 9.1, 16.4, 25.6];
+
+
+//-------------------  Math.round  -----------------------------//
+// Round method का उपयोग
+let roundedNumbers = number3.map(Math.round);
+console.log("Rounded numbers:", roundedNumbers);  // Output: Rounded numbers: [5, 9, 16, 26]
+
+
+//-------------------   Math.ceil  -----------------------------//
+// Ceil method का उपयोग
+let ceilNumbers = number3.map(Math.ceil);
+console.log("Ceiling numbers:", ceilNumbers);  // Output: Ceiling numbers: [5, 10, 17, 26]
+
+
+//------------------- Math.floor  -----------------------------//
+// Floor method का उपयोग
+let floorNumbers = number3.map(Math.floor);
+console.log("Floor numbers:", floorNumbers);  // Output: Floor numbers: [4, 9, 16, 25]
+
+
+
+
