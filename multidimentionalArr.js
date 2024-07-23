@@ -5,7 +5,7 @@
 // kisi array ke andar multiple array ko contain karna .. Multidimensional Array kahlata hai..
 
 // Example 1. ====>>>
-
+// -----------
 // declare three arrays
 let student1 = ['Jack', 24];
 let student2 = ['Sara', 23];
@@ -37,6 +37,8 @@ console.log(x[0][0]);  // Jack
 // access the second item of the third inner array
 console.log(x[2][1]);  // 24
 
+
+
 //==  Example 2 -->
 //  -------------
 
@@ -48,6 +50,12 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 
+/// yahi same cheej forEach  loop ki madad se bhi access kar sakte hai .....
+arr.forEach((data)=>{
+    console.log(data)
+})
+
+
 ///  array me nested loop access karna ....//
 for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr[i].length; j++) {
@@ -55,4 +63,10 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 
-///  forEach  loop ki madad se bhi access kar sakte the .....
+
+/// yahi same cheej nested forEach loop ki madad se bhi access kar sakte hai .....
+arr.forEach((data)=>{
+    data.forEach((newdata)=>{
+        console.log(newdata)
+    })
+})
