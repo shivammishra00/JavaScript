@@ -48,7 +48,7 @@
 
 
 
-// //for remove alternet (using filter & call back)
+//for remove alternet (using filter & call back)
 // const arr= [1,3,6,7,8,9,4]   //outpot [1,6,8]  
 // const remove = [3,7,9,4]
 // const a = arr.filter((element)=>!remove.includes(element))
@@ -142,14 +142,14 @@
 // // console.log(newArr)
 
 
-//============================================================================================//
+//=====================================================================================//
 
 
-//////rest operator
-// function fn(...data){
-//   console.log(data)
-// }
-// fn(1,2,3,4,5)
+////rest operator
+function fn(...data){
+  console.log(data)
+}
+fn(1,2,3,4,5)
  
      
 // let y = [1,2,3,4,5,6,7,8,9]   

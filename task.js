@@ -9,34 +9,34 @@
 ////===========================================================================////
 
 
-// let str = "I am from Bhopal India"
-// // Output1 => "aidnI lapohB morf ma I"
-// // Output2 => "I ma morf lapohB aidnI"
-// let Output1 = '';
-// console.log(str)
-// for(let i = str.length-1; i>=0; i--){
-//     Output1 += str[i]
-// }
-// console.log(Output1)       ////// reverse string...
+let str = "I am from Bhopal India";
+// Output1 => "aidnI lapohB morf ma I"
+// Output2 => "I ma morf lapohB aidnI"
+let Output1 = '';
+console.log(str)
+for(let i = str.length-1; i>=0; i--){
+    Output1 += str[i]
+}
+console.log(Output1)       ////// reverse string...
 
 
 
-// let strArr = str.split(' ');
-// console.log(strArr)           //////  array me store karna with quote...
+let strArr = str.split(' ');
+console.log(strArr)           //////  array me store karna with quote...
 
-// let result2 = '';
-// let newArr = [];
-// for(ele of strArr){
-// //  console.log(ele)
-//  for(let i = ele.length-1; i>=0; i--){
-//     result2 += ele[i]
-//  }
-//  // console.log(result2)
-//  newArr.push(result2)
-//  result2 = '';
-// }
-// console.log(newArr)
-// console.log(newArr.join(' '))
+let result2 = '';
+let newArr = [];
+for(ele of strArr){
+//  console.log(ele)
+ for(let i = ele.length-1; i>=0; i--){
+    result2 += ele[i]
+ }
+//  console.log(result2)
+ newArr.push(result2)
+ result2 = '';
+}
+console.log(newArr)
+console.log(newArr.join(' '))
 
 
 ///////======================================================================//////////
